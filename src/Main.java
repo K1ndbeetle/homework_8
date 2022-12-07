@@ -9,6 +9,20 @@ public class Main {
         }
         System.out.println("Сумма трат за месяц составила " + amount + " рублей.");
         System.out.println();
+
+        //task №2
+        System.out.println("Задача №2");
+        int min = arr[0];
+        int max = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (min > arr[i])
+                min = arr[i];
+            if (max < arr[i])
+                max = arr[i];
+        }
+        System.out.println("Минимальная сумма затрат за день " + min + " рублей");
+        System.out.println("Максимальная сумма затрат за день " + max + " рублей");
+        System.out.println();
     }
 
 
