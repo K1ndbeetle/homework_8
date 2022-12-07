@@ -23,6 +23,12 @@ public class Main {
         System.out.println("Минимальная сумма затрат за день " + min + " рублей");
         System.out.println("Максимальная сумма затрат за день " + max + " рублей");
         System.out.println();
+
+        //task №3
+        System.out.println("Задача №3");
+        double averageCosts = amount / arr.length;
+        System.out.println("Средняя сумма трат за месяц составила " + averageCosts + " рублей");
+        System.out.println();
     }
 
 
